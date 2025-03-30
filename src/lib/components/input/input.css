@@ -1,0 +1,15 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    color: var(--off-white);
+    margin-bottom: 1rem;
+}
+
+.input {
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--off-white);
+    margin-top: .5rem;
+    padding: 0rem 0.5rem;
+}
