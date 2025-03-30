@@ -4,10 +4,9 @@
   export let id;
   export let type;
   export let labelText;
-  export let className = "";
 </script>
 
-<div class="input-container" {className}>
+<div class="input-container">
   <label for={id}>{labelText}</label>
-  <input {id} {type} class="input" {className} />
+  <input {id} {type} class="input" />
 </div>
