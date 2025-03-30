@@ -1,0 +1,23 @@
+.primary {
+    background-color: var(--fresh-green);
+    color: var(--off-white);
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 5rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.secondary {
+    background-color: var(--aqua-blue);
+    color: var(--off-white);
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 5rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
