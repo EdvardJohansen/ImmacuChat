@@ -7,5 +7,5 @@
 </script>
 
 <div class="button-container">
-  <button {id} class={variant}>{text}</button>
+  <button on:click {id} class={variant}>{text}</button>
 </div>
