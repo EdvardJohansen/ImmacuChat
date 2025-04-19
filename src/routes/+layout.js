@@ -5,7 +5,7 @@ import { supabase } from "$lib/supabase.js";
 export async function load({ fetch, url }) {
   const pathname = url.pathname;
 
-  const publicRoutes = ["/sign-up"];
+  const publicRoutes = ["/sign-up", "/login"];
 
   const { data, error } = await supabase.auth.getSession();
   const session = data.session;
@@ -17,6 +17,4 @@ export async function load({ fetch, url }) {
   if (data.session && pathname === "/sign-up") {
     throw redirect(307, "/home");
   }
-
-  return {};
 }
