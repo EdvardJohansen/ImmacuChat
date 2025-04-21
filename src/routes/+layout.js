@@ -14,7 +14,7 @@ export async function load({ fetch, url }) {
     throw redirect(307, "/sign-up");
   }
 
-  if (data.session && pathname === "/sign-up") {
+  if (data.session && publicRoutes.includes(pathname)) {
     throw redirect(307, "/home");
   }
 }
