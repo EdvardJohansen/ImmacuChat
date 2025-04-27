@@ -1,0 +1,46 @@
+.sign-up-container {
+    margin: 1.5rem;
+}
+
+.error-message {
+    color: #ff4d4d; /* Light red for visibility */
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    background-color: #ffe6e6; /* very light red background */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    line-height: 1.4; 
+}
+
+  .generic-logo {
+    margin: auto;
+    margin-top: 5rem;
+    display: block;
+}
+
+.sign-up-header {
+    color: var(--off-white);
+    text-align: center;
+    margin: 1.5rem 0rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#sign-up-button {
+    margin-top: 2rem;
+}
+
+#sign-up-password {
+    margin-top: 1rem;
+}
+
+.sign-in-text {
+    color: var(--off-white);
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.sign-in-text a {
+    text-decoration: none;
+}
